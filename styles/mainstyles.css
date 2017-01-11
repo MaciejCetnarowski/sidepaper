@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
-    /*background:#ccc;*/
+    background: #f0f0f0;
 }
 
 a {
@@ -26,7 +26,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0 50px 0;
+    padding: 20px 0 70px 0;
 }
 
 nav ul {
@@ -37,11 +37,9 @@ nav ul {
 nav ul li {
     color: white;
     margin-left: 15px;
-    /*text-shadow: 0 0 1px black;*/
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
     font-size: 16px;
-    font-weight: 700;
-    /*border:1px solid;*/
+    , font-weight: 700;
     margin: 0;
 }
 
@@ -66,10 +64,12 @@ nav>ul>li:last-child {
     font-size: 3vw;
     color: #fff;
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
 }
 
 #bottom-part-of-header p span {
     font-size: 2vw;
+    font-weight: lighter;
 }
 
 .quote-box {
@@ -140,10 +140,13 @@ nav>ul>li:last-child {
 
 /*Styling 'provide' section*/
 
+#provide {
+    background: #fff;
+}
+
 .title-bar p {
     font-size: 32px;
     color: #727272;
-    /*padding:5px 0;*/
     text-align: center;
 }
 
@@ -160,33 +163,33 @@ nav>ul>li:last-child {
     width: calc(100%/4);
     position: relative;
     color: black;
+    background-size: cover;
 }
 
 .tile1 {
     background: url("../img/Image1.png") no-repeat 50% 0;
-    background-size: cover;
 }
+
 .tile2 {
     background: url("../img/Image2.png") no-repeat 50% 0;
-    background-size: cover;
 }
+
 .tile3 {
     background: url("../img/Image3.png") no-repeat 50% 0;
-    background-size: cover;
 }
+
 .tile4 {
     background: url("../img/Image4.png") no-repeat 50% 0;
-    background-size: cover;
 }
 
 .number {
     position: absolute;
-    top:0;
-    left:10px;
+    top: 0;
+    left: 10px;
     font-size: 100px;
     font-family: 'Cinzel', serif;
     color: #f0f0f0;
-    margin:0;
+    margin: 0;
 }
 
 .tile div {
@@ -195,7 +198,6 @@ nav>ul>li:last-child {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .tile div p {
@@ -208,10 +210,9 @@ nav>ul>li:last-child {
 .tile div ul {
     list-style-type: none;
     text-align: center;
-    /*border: 1px solid red;*/
     padding: 0;
-    margin-top:-15px;
-    color:#727272;
+    margin-top: -15px;
+    color: #727272;
 }
 
 .tile div ul li:before {
@@ -220,4 +221,73 @@ nav>ul>li:last-child {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #727272;
+}
+
+#exp-team {
+    background: url("../img/backgroundContainer3.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*#exp-team p{
+margin:200px auto;
+  width:50%;
+  font-size: 26px;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  position:relative;
+  border:1px solid red;
+}
+#exp-team p fa-quote-left{
+}*/
+
+
+/*styling second section*/
+
+.economy-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px auto 0;
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+        font-weight: 300;
+    width: 50%;
+    position: relative;
+}
+
+.economy-text p span {
+    font-weight: bold;
+}
+
+.economy-text i:first-of-type {
+    position: absolute;
+    top: -5%;
+    left: -10%;
+    color: #d47d07;
+    font-size: 50px;
+}
+
+.economy-text i:last-of-type {
+    position: absolute;
+    bottom: -3%;
+    right: -10%;
+    color: #d47d07;
+    font-size: 50px;
+}
+#exp-team button{
+  outline:0;
+  margin:60px auto 150px;
+  width:260px;
+  padding:15px 30px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  cursor:pointer;
+  background: none;
+  border:2px solid #ffffff;
+  color:#fff;
 }
