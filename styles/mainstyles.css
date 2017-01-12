@@ -39,7 +39,7 @@ nav ul li {
     margin-left: 15px;
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
     font-size: 16px;
-    , font-weight: 700;
+    font-weight: 700;
     margin: 0;
 }
 
@@ -85,7 +85,7 @@ nav>ul>li:last-child {
 .quote-box>p {
     font-size: 36px;
     margin: 0 0 50px 0;
-    text-shadow: 0 0 1px;
+    text-shadow: 2px 1px 1px rgba(0,0,0,0.5);
     font-family: 'Cinzel', serif;
 }
 
@@ -115,11 +115,11 @@ nav>ul>li:last-child {
 }
 
 .first-row input:first-child {
-    width: 64%;
+    width: 65%;
 }
 
 .first-row input:nth-child(2) {
-    width: 35%;
+    width: 30%;
 }
 
 .next-row input {
@@ -136,7 +136,6 @@ nav>ul>li:last-child {
     color: #fff;
     font-size: 16px;
 }
-
 
 /*Styling 'provide' section*/
 
@@ -164,6 +163,7 @@ nav>ul>li:last-child {
     position: relative;
     color: black;
     background-size: cover;
+    border-top: 1px solid #f0f0f0;
 }
 
 .tile1 {
@@ -230,20 +230,6 @@ nav>ul>li:last-child {
     flex-direction: column;
 }
 
-
-/*#exp-team p{
-margin:200px auto;
-  width:50%;
-  font-size: 26px;
-  font-family: 'Lato', sans-serif;
-  line-height: 1.5;
-  position:relative;
-  border:1px solid red;
-}
-#exp-team p fa-quote-left{
-}*/
-
-
 /*styling second section*/
 
 .economy-text {
@@ -254,7 +240,7 @@ margin:200px auto;
     font-size: 26px;
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
-        font-weight: 300;
+    font-weight: 300;
     width: 50%;
     position: relative;
 }
@@ -278,16 +264,152 @@ margin:200px auto;
     color: #d47d07;
     font-size: 50px;
 }
-#exp-team button{
-  outline:0;
-  margin:60px auto 150px;
-  width:260px;
-  padding:15px 30px;
+
+.white-button {
+    outline: 0;
+    margin: 60px auto 150px;
+    width: 260px;
+    padding: 15px 30px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: 2px solid #ffffff;
+    color: #fff;
+}
+
+
+/*Styles for products-seen-in section*/
+
+#products-seen-in {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: calc(100%/5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    background: #C1E2FA;
+    min-width: 250px;
+    flex: 1;
+}
+
+.product-item:first-child {
+    text-align: center;
+    font-size: 28px;
+    color: #727272;
+    background: white;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*Styles for "See--what-we-can-do"*/
+
+#see-what-we-can-do{
+  background: url("../img/whatwecando.png") no-repeat 50% 0;
+  background-size:cover;
+  display:block;
+}
+#see-what-we-can-do div{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  margin:150px 0;
+}
+#see-what-we-can-do p{
+  font-size:2.5vw;
   text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  cursor:pointer;
-  background: none;
-  border:2px solid #ffffff;
+  text-shadow:2px 1px 1px rgba(0,0,0,0.7);
+}
+/*styles for footer*/
+
+footer{
+  background:#263248;
+  display:flex;
+  flex-direction:column;
+  text-shadow: 2px 1px 3px rgba(0,0,0,0.9);
+}
+.row-footer{
+  background:#141B26;
+  text-align:center;
+  padding:30px 0;
+  border-top: 1px solid #727272;
+  border-bottom: 1px solid #727272;
+}
+.row-footer:last-child{
+  border-bottom:0;
+}
+.row-footer ul{
+  list-style-type:none;
+  display:flex;
+  margin:0 auto;
+  justify-content: center;
+}
+.row-footer ul li{
+  margin:0 10px;
+}
+.row-footer ul li:nth-child(n+2)::before{
+  content:'-';
+  margin-right: 20px;
+}
+.street-info{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:30px;
+}
+adress {
+  margin-top: 30px;
+  display:flex;
+}
+adress p{
+  margin:0 10px;
+}
+adress p:nth-child(n+2)::before{
+  content:'-';
+  margin-right:25px;
+}
+#footer-contact{
+  margin:80px auto;
+  width:90%;
+  display:flex;
+    align-items:baseline;
+  /*justify-content: center;*/
+  justify-content: space-around;
+
+}
+#footer-contact input{
+  border:0;
+  background:none;
+  border-bottom:2px solid #fff;
+  padding:14px 0;
   color:#fff;
+  outline:0;
+  font-size:18px;
+  font-style:italic;
+}
+.bottom-button{
+  outline:0;
+  background:none;
+  border:2px solid #f0f0f0;
+  width: 230px;
+  padding: 15px 0;
+  font-size:18px;
+  color:#fff;
+}
+.socials{
+  display:flex;
+  justify-content: center;
+  font-size:14px;
+}
+.socials a:nth-child(n+2){
+  margin-left:20px;
+}
+.socials a:nth-child(n+2)::before{
+  content:'-';
+  margin-right:20px;
 }

@@ -1,0 +1,356 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex d38f21f..748c427 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -19,12 +19,12 @@[m
+         <nav>[m
+             <img src="img/Sidepaperlogo.png" alt="logo">[m
+             <ul>[m
+[31m-                <li><a href="">HOME</a></li>[m
+[31m-                <li><a href="">LOANS OFFERED</a></li>[m
+[31m-                <li><a href="">ABOUT US</a></li>[m
+[31m-                <li><a href="">CAREERS</a></li>[m
+[31m-                <li><a href="">CONTACT</a></li>[m
+[31m-                <li><a href="">APPLY NOW</a></li>[m
+[32m+[m[32m                <li><a href="#">HOME</a></li>[m
+[32m+[m[32m                <li><a href="#">LOANS OFFERED</a></li>[m
+[32m+[m[32m                <li><a href="#">ABOUT US</a></li>[m
+[32m+[m[32m                <li><a href="#">CAREERS</a></li>[m
+[32m+[m[32m                <li><a href="#">CONTACT</a></li>[m
+[32m+[m[32m                <li><a href="#">APPLY NOW</a></li>[m
+             </ul>[m
+         </nav>[m
+         <div id="bottom-part-of-header">[m
+[36m@@ -101,20 +101,78 @@[m
+                     </ul>[m
+                 </div>[m
+             </div>[m
+[31m-      </div>[m
+[32m+[m[32m        </div>[m
+     </section>[m
+     <section id="exp-team">[m
+[31m-      <div class="economy-text">[m
+[31m-        <i class="fa fa-quote-left" aria-hidden="true"></i>[m
+[31m-        <p>In today’s challenging economy, small businesses face a significant number of hurdles. Our job at SidePaper is to provide the guidance, advice, and capital support that small businesses need to be successful.<br><br><span>We have an experienced team, decades of combined industry experience, and we are excited to begin a partnership with you.</span>[m
+[31m-        </p>[m
+[31m-        <i class="fa fa-quote-right" aria-hidden="true"></i>[m
+[31m-      </div>[m
+[31m-      <button>Learn More ></button>[m
+[32m+[m[32m        <div class="economy-text">[m
+[32m+[m[32m            <i class="fa fa-quote-left" aria-hidden="true"></i>[m
+[32m+[m[32m            <p>In today’s challenging economy, small businesses face a significant number of hurdles. Our job at SidePaper is to provide the guidance, advice, and capital support that small businesses need to be successful.<br><br><span>We have an experienced team, decades of combined industry experience, and we are excited to begin a partnership with you.</span>[m
+[32m+[m[32m            </p>[m
+[32m+[m[32m            <i class="fa fa-quote-right" aria-hidden="true"></i>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <button class="white-button">Learn More ></button>[m
+     </section>[m
+[32m+[m[32m    <section id="products-seen-in">[m
+[32m+[m[32m        <div class="product-item">[m
+[32m+[m[32m            <p>PRODUCTS<br>SEEN IN</p>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <div class="product-item">[m
+[32m+[m[32m            <img src="img/kaf1.png" alt="">[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <div class="product-item">[m
+[32m+[m[32m            <img src="img/kaf2.png" alt="">[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <div class="product-item">[m
+[32m+[m[32m            <img src="img/kaf3.png" alt="">[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <div class="product-item">[m
+[32m+[m[32m            <img src="img/kaf4.png" alt="">[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m    </section>[m
+[32m+[m[32m    <section id="see-what-we-can-do">[m
+[32m+[m[32m      <div>[m
+[32m+[m[32m        <p>SEE WHAT WE CAN DO FOR YOU</p>[m
+[32m+[m[32m        <button class="submit-button">Apply Now ></button>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section>[m
+[32m+[m[32m    <footer>[m
+[32m+[m[32m      <div class="row-footer">[m
+[32m+[m[32m        <ul>[m
+[32m+[m[32m          <li><a href="#">HOME</a></li>[m
+[32m+[m[32m          <li><a href="#">LOANS OFFERED</a></li>[m
+[32m+[m[32m          <li><a href="#">ABOUT US</a></li>[m
+[32m+[m[32m          <li><a href="#">CAREERS</a></li>[m
+[32m+[m[32m          <li><a href="#">CONTACT</a></li>[m
+[32m+[m[32m        </ul>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m      <div class="street-info">[m
+[32m+[m[32m        <img src="img/Sidepaperlogo.png" alt="SIDEPAPER">[m
+[32m+[m[32m        <adress>[m
+[32m+[m[32m          <p>3110 MAIN STREET, SUITE 205</p>[m
+[32m+[m[32m          <p>SANTA MONICA, CA 90401</p>[m
+[32m+[m[32m          <p>(888) 468-4445</p>[m
+[32m+[m[32m          <p><a href="mailto:info@sidepaper.com">INFO@SIDEPAPER.COM</a></p>[m
+[32m+[m[32m        </adress>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m      <form action="" id="footer-contact">[m
+[32m+[m[32m        <input type="text" placeholder="Enter Your Name">[m
+[32m+[m[32m        <input type="text" placeholder="Enter Your Email">[m
+[32m+[m[32m        <input type="text" placeholder="Enter Your Message">[m
+[32m+[m[32m        <button class="bottom-button">Contact Us ></button>[m
+[32m+[m[32m      </form>[m
+[32m+[m[32m      <div class="row-footer socials">[m
+[32m+[m[32m        <a href="#">TERMS &amp; CONDITIONS</a>[m
+[32m+[m[32m        <a href="#">PRIVACY POLICY</a>[m
+[32m+[m[32m        <a href="#">SITE MAP</a>[m
+[32m+[m[32m        <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>[m
+[32m+[m[32m        <a href="http://linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>[m
+[32m+[m[32m        <a href="callto:(888) 468-4445" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i></a>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </footer>[m
+ [m
+ [m
+[31m-<script type="text/javascript" src="http://localhost:35729/livereload.js"></script>[m
+[32m+[m
+[32m+[m[32m    <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>[m
+ </body>[m
+ [m
+ </html>[m
+[1mdiff --git a/styles/mainstyles.css b/styles/mainstyles.css[m
+[1mindex 1adac59..acbeb0c 100644[m
+[1m--- a/styles/mainstyles.css[m
+[1m+++ b/styles/mainstyles.css[m
+[36m@@ -39,7 +39,7 @@[m [mnav ul li {[m
+     margin-left: 15px;[m
+     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);[m
+     font-size: 16px;[m
+[31m-    , font-weight: 700;[m
+[32m+[m[32m    font-weight: 700;[m
+     margin: 0;[m
+ }[m
+ [m
+[36m@@ -85,7 +85,7 @@[m [mnav>ul>li:last-child {[m
+ .quote-box>p {[m
+     font-size: 36px;[m
+     margin: 0 0 50px 0;[m
+[31m-    text-shadow: 0 0 1px;[m
+[32m+[m[32m    text-shadow: 2px 1px 1px rgba(0,0,0,0.5);[m
+     font-family: 'Cinzel', serif;[m
+ }[m
+ [m
+[36m@@ -115,11 +115,11 @@[m [mnav>ul>li:last-child {[m
+ }[m
+ [m
+ .first-row input:first-child {[m
+[31m-    width: 64%;[m
+[32m+[m[32m    width: 65%;[m
+ }[m
+ [m
+ .first-row input:nth-child(2) {[m
+[31m-    width: 35%;[m
+[32m+[m[32m    width: 30%;[m
+ }[m
+ [m
+ .next-row input {[m
+[36m@@ -137,7 +137,6 @@[m [mnav>ul>li:last-child {[m
+     font-size: 16px;[m
+ }[m
+ [m
+[31m-[m
+ /*Styling 'provide' section*/[m
+ [m
+ #provide {[m
+[36m@@ -164,6 +163,7 @@[m [mnav>ul>li:last-child {[m
+     position: relative;[m
+     color: black;[m
+     background-size: cover;[m
+[32m+[m[32m    border-top: 1px solid #f0f0f0;[m
+ }[m
+ [m
+ .tile1 {[m
+[36m@@ -230,20 +230,6 @@[m [mnav>ul>li:last-child {[m
+     flex-direction: column;[m
+ }[m
+ [m
+[31m-[m
+[31m-/*#exp-team p{[m
+[31m-margin:200px auto;[m
+[31m-  width:50%;[m
+[31m-  font-size: 26px;[m
+[31m-  font-family: 'Lato', sans-serif;[m
+[31m-  line-height: 1.5;[m
+[31m-  position:relative;[m
+[31m-  border:1px solid red;[m
+[31m-}[m
+[31m-#exp-team p fa-quote-left{[m
+[31m-}*/[m
+[31m-[m
+[31m-[m
+ /*styling second section*/[m
+ [m
+ .economy-text {[m
+[36m@@ -254,7 +240,7 @@[m [mmargin:200px auto;[m
+     font-size: 26px;[m
+     font-family: 'Lato', sans-serif;[m
+     line-height: 1.5;[m
+[31m-        font-weight: 300;[m
+[32m+[m[32m    font-weight: 300;[m
+     width: 50%;[m
+     position: relative;[m
+ }[m
+[36m@@ -278,16 +264,152 @@[m [mmargin:200px auto;[m
+     color: #d47d07;[m
+     font-size: 50px;[m
+ }[m
+[31m-#exp-team button{[m
+[31m-  outline:0;[m
+[31m-  margin:60px auto 150px;[m
+[31m-  width:260px;[m
+[31m-  padding:15px 30px;[m
+[32m+[m
+[32m+[m[32m.white-button {[m
+[32m+[m[32m    outline: 0;[m
+[32m+[m[32m    margin: 60px auto 150px;[m
+[32m+[m[32m    width: 260px;[m
+[32m+[m[32m    padding: 15px 30px;[m
+[32m+[m[32m    text-align: center;[m
+[32m+[m[32m    font-family: 'Lato', sans-serif;[m
+[32m+[m[32m    font-size: 20px;[m
+[32m+[m[32m    cursor: pointer;[m
+[32m+[m[32m    background: none;[m
+[32m+[m[32m    border: 2px solid #ffffff;[m
+[32m+[m[32m    color: #fff;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32m/*Styles for products-seen-in section*/[m
+[32m+[m
+[32m+[m[32m#products-seen-in {[m
+[32m+[m[32m    width: 100%;[m
+[32m+[m[32m    display: flex;[m
+[32m+[m[32m    flex-wrap: wrap;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.product-item {[m
+[32m+[m[32m    width: calc(100%/5);[m
+[32m+[m[32m    display: flex;[m
+[32m+[m[32m    align-items: center;[m
+[32m+[m[32m    justify-content: center;[m
+[32m+[m[32m    padding: 80px 0;[m
+[32m+[m[32m    background: #C1E2FA;[m
+[32m+[m[32m    min-width: 250px;[m
+[32m+[m[32m    flex: 1;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.product-item:first-child {[m
+[32m+[m[32m    text-align: center;[m
+[32m+[m[32m    font-size: 28px;[m
+[32m+[m[32m    color: #727272;[m
+[32m+[m[32m    background: white;[m
+[32m+[m[32m    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.2);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/*Styles for "See--what-we-can-do"*/[m
+[32m+[m
+[32m+[m[32m#see-what-we-can-do{[m
+[32m+[m[32m  background: url("../img/whatwecando.png") no-repeat 50% 0;[m
+[32m+[m[32m  background-size:cover;[m
+[32m+[m[32m  display:block;[m
+[32m+[m[32m}[m
+[32m+[m[32m#see-what-we-can-do div{[m
+[32m+[m[32m  display:flex;[m
+[32m+[m[32m  align-items: center;[m
+[32m+[m[32m  flex-direction: column;[m
+[32m+[m[32m  margin:150px 0;[m
+[32m+[m[32m}[m
+[32m+[m[32m#see-what-we-can-do p{[m
+[32m+[m[32m  font-size:2.5vw;[m
+   text-align: center;[m
+[31m-  font-family: 'Lato', sans-serif;[m
+[31m-  font-size: 20px;[m
+[31m-  cursor:pointer;[m
+[31m-  background: none;[m
+[31m-  border:2px solid #ffffff;[m
+[32m+[m[32m  text-shadow:2px 1px 1px rgba(0,0,0,0.7);[m
+[32m+[m[32m}[m
+[32m+[m[32m/*styles for footer*/[m
+[32m+[m
+[32m+[m[32mfooter{[m
+[32m+[m[32m  background:#263248;[m
+[32m+[m[32m  display:flex;[m
+[32m+[m[32m  flex-direction:column;[m
+[32m+[m[32m  text-shadow: 2px 1px 3px rgba(0,0,0,0.9);[m
+[32m+[m[32m}[m
+[32m+[m[32m.row-footer{[m
+[32m+[m[32m  background:#141B26;[m
+[32m+[m[32m  text-align:center;[m
+[32m+[m[32m  padding:30px 0;[m
+[32m+[m[32m  border-top: 1px solid #727272;[m
+[32m+[m[32m  border-bottom: 1px solid #727272;[m
+[32m+[m[32m}[m
+[32m+[m[32m.row-footer:last-child{[m
+[32m+[m[32m  border-bottom:0;[m
+[32m+[m[32m}[m
+[32m+[m[32m.row-footer ul{[m
+[32m+[m[32m  list-style-type:none;[m
+[32m+[m[32m  display:flex;[m
+[32m+[m[32m  margin:0 auto;[m
+[32m+[m[32m  justify-content: center;[m
+[32m+[m[32m}[m
+[32m+[m[32m.row-footer ul li{[m
+[32m+[m[32m  margin:0 10px;[m
+[32m+[m[32m}[m
+[32m+[m[32m.row-footer ul li:nth-child(n+2)::before{[m
+[32m+[m[32m  content:'-';[m
+[32m+[m[32m  margin-right: 20px;[m
+[32m+[m[32m}[m
+[32m+[m[32m.street-info{[m
+[32m+[m[32m  display:flex;[m
+[32m+[m[32m  flex-direction: column;[m
+[32m+[m[32m  align-items: center;[m
+[32m+[m[32m  padding-top:30px;[m
+[32m+[m[32m}[m
+[32m+[m[32madress {[m
+[32m+[m[32m  margin-top: 30px;[m
+[32m+[m[32m  display:flex;[m
+[32m+[m[32m}[m
+[32m+[m[32madress p{[m
+[32m+[m[32m  margin:0 10px;[m
+[32m+[m[32m}[m
+[32m+[m[32madress p:nth-child(n+2)::before{[m
+[32m+[m[32m  content:'-';[m
+[32m+[m[32m  margin-right:25px;[m
+[32m+[m[32m}[m
+[32m+[m[32m#footer-contact{[m
+[32m+[m[32m  margin:80px auto;[m
+[32m+[m[32m  width:90%;[m
+[32m+[m[32m  display:flex;[m
+[32m+[m[32m    align-items:baseline;[m
+[32m+[m[32m  /*justify-content: center;*/[m
+[32m+[m[32m  justify-content: space-around;[m
+[32m+[m
+[32m+[m[32m}[m
+[32m+[m[32m#footer-contact input{[m
+[32m+[m[32m  border:0;[m
+[32m+[m[32m  background:none;[m
+[32m+[m[32m  border-bottom:2px solid #fff;[m
+[32m+[m[32m  padding:14px 0;[m
+[32m+[m[32m  color:#fff;[m
+[32m+[m[32m  outline:0;[m
+[32m+[m[32m  font-size:18px;[m
+[32m+[m[32m  font-style:italic;[m
+[32m+[m[32m}[m
+[32m+[m[32m.bottom-button{[m
+[32m+[m[32m  outline:0;[m
+[32m+[m[32m  background:none;[m
+[32m+[m[32m  border:2px solid #f0f0f0;[m
+[32m+[m[32m  width: 230px;[m
+[32m+[m[32m  padding: 15px 0;[m
+[32m+[m[32m  font-size:18px;[m
+   color:#fff;[m
+ }[m
+[32m+[m[32m.socials{[m
+[32m+[m[32m  display:flex;[m
+[32m+[m[32m  justify-content: center;[m
+[32m+[m[32m  font-size:14px;[m
+[32m+[m[32m}[m
+[32m+[m[32m.socials a:nth-child(n+2){[m
+[32m+[m[32m  margin-left:20px;[m
+[32m+[m[32m}[m
+[32m+[m[32m.socials a:nth-child(n+2)::before{[m
+[32m+[m[32m  content:'-';[m
+[32m+[m[32m  margin-right:20px;[m
+[32m+[m[32m}[m
