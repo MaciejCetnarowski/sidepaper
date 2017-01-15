@@ -170,25 +170,28 @@ nav #mobile-menu-button{
     background-size: cover;
     border-top: 1px solid #f0f0f0;
     display:flex;
-    min-width:350px;
+    min-width:310px;
     flex:1;
 }
 
 .tile1 {
-    background: url("../img/Image1.png") no-repeat 90% 0;
+    background: url("../img/Image1.png") no-repeat 50% 0;
     background-size: cover;
 }
 
 .tile2 {
     background: url("../img/Image2.png") no-repeat 50% 0;
+      background-size: cover;
 }
 
 .tile3 {
     background: url("../img/Image3.png") no-repeat 50% 0;
+      background-size: cover;
 }
 
 .tile4 {
     background: url("../img/Image4.png") no-repeat 50% 0;
+      background-size: cover;
 }
 
 .number {

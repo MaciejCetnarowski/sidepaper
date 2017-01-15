@@ -8,11 +8,15 @@
     <title>Sidepaper</title>
     <link rel="stylesheet" href="styles/mainstyles.css">
     <link rel="stylesheet" href="styles/rwdstyles.css">
+      <!-- <link rel="stylesheet" href="styles/window-style.css"> -->
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
 
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300i,400" rel="stylesheet">
+    <link rel="stylesheet" href="styles/magnific-popup.css">
+    <script src="functions\jquery.magnific-popup.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -48,6 +52,35 @@
                 </form>
             </div>
         </div>
+        <!-- Adding popup form  -->
+        <!-- <div id="popup-form">
+          <form action="">
+            <p class="form-title"><i class="fa fa-angle-down" aria-hidden="true"></i>GET QUALIFIED<i class="fa fa-angle-down" aria-hidden="true"></i></p>
+              <div class="row">
+                <p class="col"><label for="">1.Name<span>*</span>:</label><input type="text"></p>
+                <p class="col"><label for="">2.Phone No.<span>*</span>:</label><input type="text"></p>
+              </div>
+              <div class="row">
+                <p class="col"><label for="">3. Business Name<span>*</span>:</label><input type="text"></p>
+                <p class="col"><label for="">4.E-mail<span>*</span>:</label><input type="text"></p>
+              </div>
+              <div class="row">
+                <p class="col"><label for="">5.Annual Revenue<span>*</span>:</label><input type="text"></p>
+                <p class="col"><label for="">6.Loan Amount Requested<span>*</span>:</label><input type="text"></p>
+              </div>
+              <div class="row">
+                <p class="col"><label for="">7.Credit Score (select)<span>*</span>:</label><input type="text"></p>
+                <p class="col"><label for="">8.Time in Business (Years)<span>*</span>:</label><input type="text"></p>
+              </div>
+              <div class="row">
+                <p class="col-full-width"><label for="">9.Approval Reference Code (if aplicable):</label><input type="text"></p>
+              </div>
+              <div class="row">
+                <p class="col-full-width"><label for="">Please enter any two digits<span>*</span>(example: 12):</label><input type="text"></p>
+              </div>
+              <button class="submit-button-form">Apply Now ></button>
+          </form>
+        </div> -->
     </header>
     <section id="provide">
         <div class="title-bar">
@@ -173,6 +206,27 @@
     </footer>
 
 
+<script>
+$(document).ready(function() {
+	$('.popup-with-form').magnificPopup({
+		type: 'inline',
+		preloader: false,
+		focus: '#name',
+
+		// When elemened is focused, some mobile browsers in some cases zoom in
+		// It looks not nice, so we disable it:
+		callbacks: {
+			beforeOpen: function() {
+				if($(window).width() < 700) {
+					this.st.focus = false;
+				} else {
+					this.st.focus = '#name';
+				}
+			}
+		}
+	});
+});
+</script>
 
     <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
 </body>
