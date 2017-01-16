@@ -99,13 +99,13 @@ nav #mobile-menu-button{
     font-family: 'Lato', sans-serif;
 }
 
-.row {
+.quote-box .row {
     margin: 0 0 10px 0;
     display: flex;
     justify-content: space-between;
 }
 
-.row input {
+.quote-box .row input {
     outline: 0;
     border: none;
     padding: 10px 3px;
@@ -170,7 +170,7 @@ nav #mobile-menu-button{
     background-size: cover;
     border-top: 1px solid #f0f0f0;
     display:flex;
-    min-width:310px;
+    min-width:320px;
     flex:1;
 }
 

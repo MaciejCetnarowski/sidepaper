@@ -8,15 +8,14 @@
     <title>Sidepaper</title>
     <link rel="stylesheet" href="styles/mainstyles.css">
     <link rel="stylesheet" href="styles/rwdstyles.css">
-      <!-- <link rel="stylesheet" href="styles/window-style.css"> -->
-    <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="styles/window-style.css">
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
     <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/magnific-popup.css">
 
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300i,400" rel="stylesheet">
-    <link rel="stylesheet" href="styles/magnific-popup.css">
-    <script src="functions\jquery.magnific-popup.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -48,13 +47,13 @@
                     <p class="row next-row">
                         <input type="text" placeholder="4. Your Email Adress">
                     </p>
-                    <button class="submit-button">Apply Now ></button>
+                    <button class="submit-button popup-with-form" href="#test-form">Apply Now ></button>
                 </form>
             </div>
         </div>
         <!-- Adding popup form  -->
-        <!-- <div id="popup-form">
-          <form action="">
+        <!-- <div id="popup-form"> -->
+          <form id="test-form" class="mfp-hide white-popup-block">
             <p class="form-title"><i class="fa fa-angle-down" aria-hidden="true"></i>GET QUALIFIED<i class="fa fa-angle-down" aria-hidden="true"></i></p>
               <div class="row">
                 <p class="col"><label for="">1.Name<span>*</span>:</label><input type="text"></p>
@@ -80,7 +79,7 @@
               </div>
               <button class="submit-button-form">Apply Now ></button>
           </form>
-        </div> -->
+        <!-- </div> -->
     </header>
     <section id="provide">
         <div class="title-bar">
@@ -204,10 +203,10 @@
             <a href="callto:(888) 468-4445" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i></a>
         </div>
     </footer>
-
-
-<script>
-$(document).ready(function() {
+    <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="functions/jquery.magnific-popup.min.js"></script>
+  <script>$(document).ready(function() {
 	$('.popup-with-form').magnificPopup({
 		type: 'inline',
 		preloader: false,
@@ -225,10 +224,7 @@ $(document).ready(function() {
 			}
 		}
 	});
-});
-</script>
-
-    <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
+});</script>
 </body>
 
 </html>

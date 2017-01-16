@@ -2,32 +2,32 @@
     background-color: #D47D07;
     text-align: center;
     padding: 20px 60px;
-    margin: 30px auto 0;
+    margin: 20px auto 0;
     border: 0;
     cursor: pointer;
     color: #fff;
     font-size: 16px;
 }
 
-#popup-form{
-  /*background:url("../img/FormContainer.png");
-  background-size:100%;*/
+/*#popup-form{
+  background:url("../img/FormContainer.png");
+  background-size:100%;
   width:800px;
   display:flex;
   flex-direction: column;
   align-items: center;
 
-}
-form{
-  width:100%;
+}*/
+#test-form{
+  width:900px;
   background:url("../img/FormContainer.png");
   background-size:100%;
-  padding:70px;
+  padding: 0 70px 30px;
   font-size: 18px;
   display:flex;
   flex-direction: column;
   text-shadow: 2px 1px 2px rgba(0,0,0,0.5);
-
+  margin:0 auto;
 }
 .form-title{
   font-family:'Cinzel';
@@ -44,28 +44,28 @@ form{
 }
 /*Need to add bef/after el's in a sec*/
 
-.row{
+#test-form .row{
   width:100%;
   display:flex;
   font-style: italic;
   font-family: 'Lato';
   justify-content: space-between;
 }
-.row .col{
+#test-form .row .col{
 
   display:flex;
   width:49%;
-    padding:14px 0;
+    padding:11px 0;
     border-bottom:1px solid #f0f0f0;
   /*margin:0 10px;*/
 }
-.col-full-width{
+#test-form .col-full-width{
   display:flex;
   width:100%;
-  padding:13px 0;
+  padding:11px 0;
   border-bottom:1px solid #f0f0f0;
 }
-input{
+#test-form input{
   display:flex;
   flex:1;
   background:0;
@@ -77,10 +77,35 @@ input{
   /*min-width: none;*/
 }
 
-label{
+#test-form label{
   color:#f0f0f0;
 
 }
-label span{
+#test-form label span{
   color:red;
+}
+
+@media only screen and (max-width:1260px){
+
+  #test-form{
+  width:70%;
+  }
+  #test-form .row{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    font-style: italic;
+    font-family: 'Lato';
+    justify-content: space-between;
+  }
+  #test-form .row .col{
+    width:100%;
+  }
+}
+
+@media only screen and (max-width:700px){
+  .form-title i{
+    display:none;
+    overflow: hidden;
+  }
 }
