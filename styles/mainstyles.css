@@ -52,9 +52,10 @@ nav>ul>li:nth-child(n+2)::before {
 nav>ul>li:last-child {
     color: #D47D07;
 }
-nav #mobile-menu-button{
-  font-size:46px;
-  display:none;
+
+nav #mobile-menu-button {
+    font-size: 46px;
+    display: none;
 }
 
 #bottom-part-of-header {
@@ -169,9 +170,9 @@ nav #mobile-menu-button{
     color: black;
     background-size: cover;
     border-top: 1px solid #f0f0f0;
-    display:flex;
-    min-width:320px;
-    flex:1;
+    display: flex;
+    min-width: 320px;
+    flex: 1;
 }
 
 .tile1 {
@@ -181,17 +182,17 @@ nav #mobile-menu-button{
 
 .tile2 {
     background: url("../img/Image2.png") no-repeat 50% 0;
-      background-size: cover;
+    background-size: cover;
 }
 
 .tile3 {
     background: url("../img/Image3.png") no-repeat 50% 0;
-      background-size: cover;
+    background-size: cover;
 }
 
 .tile4 {
     background: url("../img/Image4.png") no-repeat 50% 0;
-      background-size: cover;
+    background-size: cover;
 }
 
 .number {
@@ -318,7 +319,7 @@ nav #mobile-menu-button{
     color: #727272;
     background: white;
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.2);
-    padding:0;
+    padding: 0;
 }
 
 
@@ -369,7 +370,7 @@ footer {
     list-style-type: none;
     display: flex;
     margin: 0 auto;
-    padding:0;
+    padding: 0;
     justify-content: center;
 }
 

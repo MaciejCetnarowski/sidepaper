@@ -1,0 +1,41 @@
+@media only screen and (max-width:1200px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    header>ul>li:nth-child(n+2)::before {
+        display: none;
+    }
+    header ul li {
+        margin: 0 5px;
+    }
+    #contact-section {
+        flex-direction: column;
+    }
+    #map {
+        padding: 50%;
+    }
+    #contact-form {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:790px){
+  header ul{
+    display:none;
+  }
+  #mobile-menu-button{
+    display:block;
+    color:#fff;
+    font-size:40px;
+    margin:20px 40px 0 0 ;
+  }
+  #contact-details {
+    flex-direction: column;
+    align-content:space-around;
+  }
+  #contact-details div{
+    margin:20px 0;
+  }
+}
