@@ -45,7 +45,7 @@ nav ul li {
 
 nav>ul>li:nth-child(n+2)::before {
     content: "•";
-    margin: 0 16px 0 16px;
+    margin: 0 16px 0;
     color: #f0f0f0;
 }
 
