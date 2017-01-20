@@ -147,6 +147,9 @@
   #bottom-part-of-header p span {
       font-size: 4vw;
   }
+  .title-bar p i{
+    display:none;
+  }
 
   .tile {
       width: calc(100%/2);
