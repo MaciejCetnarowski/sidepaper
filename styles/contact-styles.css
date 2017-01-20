@@ -24,6 +24,7 @@ header {
     width: 100%;
     justify-content: space-between;
     padding: 15px 0;
+    color: #fff;
 }
 
 header img {
@@ -35,30 +36,34 @@ header ul {
     display: flex;
     align-items: center;
     margin: 0 30px 0 0;
-    color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 header>ul>li:nth-child(n+2)::before {
     content: "•";
-    margin: 0 16px 0;
-    color: #f0f0f0;
+    margin: 0 16px;
 }
-s
+ul li{
+  padding:0;
+  margin:0;
+}
+
 header>ul>li:last-child>a {
     color: #D47D07;
+
 }
 #mobile-menu-button{
-  displsay:none;
+  display:none;
 }
 
 #page-title {
+  font-family:'cinzel';
     width: 100%;
     background: #263248;
     font-size: 24px;
     color: #f0f0f0;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-    padding: 15px 40px;
+    padding: 18px 40px;
 }
 
 #contact {
