@@ -114,7 +114,6 @@ h1{
 }
 
 .content{
-  /*padding-left:100px;*/
   width:60%;
   color:#727272;
 }
@@ -122,35 +121,6 @@ h1{
   background:#F5F5F5;
   flex-direction: row-reverse;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #see-what-we-can-do {
     background: url("../img/whatwecando.png") no-repeat 50% 0;
