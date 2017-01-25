@@ -70,7 +70,6 @@ h1 {
     width: 100%;
     background: #263248;
     color: #f0f0f0;
-    ;
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
     padding: 18px 0 18px 40px;
     font-size: 24px;
@@ -88,6 +87,22 @@ h1 {
 .owl-carousel {
     width: 100%;
     display: inline-block;
+    position: relative;
+}
+
+.owl-nav {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #fff;
+    align-items: center;
+    justify-content: space-around;
+    color:#fff;
+    font-weight: bolder;
+    font-size:30px;
 }
 
 .owl-carousel .item {
@@ -118,8 +133,10 @@ h2 {
 }
 
 .content p {
-    font-size: 24px;
-    font-family: 'lato'
+    font-size: 26px;
+    font-family: 'lato';
+    line-height: 1.6;
+    user-select: none;
 }
 
 .slider-nav-buttons {
@@ -127,6 +144,7 @@ h2 {
     align-items: center;
     width: 100%;
     background: #fff;
+    height: 200px;
 }
 
 .slider-nav-buttons a {
@@ -136,6 +154,8 @@ h2 {
     justify-content: center;
     position: relative;
     padding: 80px 0;
+    position: relative;
+    z-index: 1
 }
 
 .slider-nav-buttons a .number {
@@ -148,6 +168,8 @@ h2 {
 
 .slider-nav-buttons a.active {
     background: #DFEBFF;
+    height: 100%;
+    margin: 0;
 }
 
 .slider-nav-buttons a.active .arrow {
@@ -160,21 +182,18 @@ h2 {
     right: 0;
 }
 
-.owl-dots {
-    background: red;
-    width: 100%;
-    height: 20px;
-    display: flex;
+.slider-nav-buttons a.active .arrow {
+    border-right: 40px solid #DFEBFF;
+    border-top: 40px solid transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -40px;
+    right: 0;
 }
 
-.owl-dot {
-    display: flex;
-    flex: 1;
-    border: 1px solid blue;
-}
-
-.owl-dot.active {
-    background: blue;
+.slider-nav-buttons a.active .number {
+    color: #D47D07;
 }
 
 .submit-button {
