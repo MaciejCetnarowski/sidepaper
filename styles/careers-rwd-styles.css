@@ -1,0 +1,122 @@
+@media only screen and (max-width:1200px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .banner {
+        background: url("../img/backgroundcontainer3.png") no-repeat 80% 0;
+    }
+    header ul li:nth-child(n+2)::before {
+        display: none;
+    }
+    header ul li {
+        margin: 0 5px;
+    }
+    .blue1 {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .blue2 img {
+        display: none;
+    }
+    #sales {
+        padding: 60px 5%;
+    }
+    #marketing {
+        padding: 60px 5%;
+    }
+    #footer-contact {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer-contact input {
+        width: 100%;
+    }
+    .bottom-button {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width:880px) {
+    header ul {
+        display: none;
+    }
+    #mobile-menu-button {
+        display: block;
+        color: #fff;
+        font-size: 40px;
+        margin: 20px 40px 0 0;
+    }
+    .banner {
+        padding: 180px 60px;
+    }
+    .blue p {
+        font-size: 22px;
+    }
+    adress {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    adress p:nth-child(n+2)::before {
+        content: '-';
+        margin: 0;
+        display: block;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .blue p {
+        padding: 20px;
+    }
+    .banner {
+        padding: 180px 20px;
+    }
+    .content {
+        align-items: center;
+    }
+    h3 {
+        transform-origin: 100%;
+        transform: rotate(-90deg);
+        letter-spacing: 5px;
+        margin-top: -140px;
+        width: 10%;
+    }
+    .row-footer ul li {
+        margin: 0 5px;
+    }
+    .row-footer ul li:nth-child(n+2)::before {
+        content: '-';
+        margin-right: 10px;
+    }
+    #footer-contact {
+        width: 70%;
+    }
+    .socials a:nth-child(n+2) {
+        margin-left: 10px;
+    }
+    .socials a:nth-child(n+2)::before {
+        content: '-';
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .row-footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .row-footer ul li:nth-child(n+2)::before {
+        margin: 0;
+        display: block;
+    }
+    .socials ul li:nth-child(n+4) {
+        font-size: 1.8em;
+    }
+}
